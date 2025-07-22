@@ -27,5 +27,3 @@ A modular microservices-based financial platform, composed of the following serv
 3. From each service directory:
    ```bash
    mvn clean package && java -jar target/*.jar
-   # or with Gradle:
-   ./gradlew bootJar && java -jar build/libs/*.jar
